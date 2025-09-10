@@ -1,12 +1,22 @@
 .landing__heading {
     font-family: OoohBaby, cursive;
-    font-size: 16rem;
+    font-size: 4rem;
     margin: 0;
     padding: 0;
 }
 
 .landing__text {
     font-family: Poppins, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
+}
+
+@media (min-width: 769px) {
+    .landing__heading {
+        font-size: 16rem;
+    }
+
+    .landing__text {
+        font-size: 2rem;
+    }
 }
