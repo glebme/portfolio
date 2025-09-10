@@ -9,7 +9,7 @@
     "dev": "rsbuild dev --open",
     "preview": "rsbuild preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --cname tommyhuygiatruong.com"
   },
   "dependencies": {
     "react": "^19.1.1",
