@@ -1,10 +1,11 @@
 import './App.css';
+import Landing from "./components/Landing/Landing.tsx";
 
 const App = () => {
   return (
     <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
+        <title>Tommy Huy Gia Truong</title>
+        <Landing/>
     </div>
   );
 };
