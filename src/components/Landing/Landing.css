@@ -1,8 +1,31 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1;
+    min-height: 100vh;
+    text-align: center;
+}
+
 .landing__heading {
     font-family: OoohBaby, cursive;
     font-size: 4rem;
     margin: 0;
     padding: 0;
+    transition: transform 0.6s ease-out;
+}
+
+.landing__heading--initial {
+    transform: translateY(20%);
+}
+
+.landing__content {
+    opacity: 1;
+    transition: opacity 1s cubic-bezier(0.32, 0, 0.67, 0);
+}
+
+.landing__content--initial {
+    opacity: 0;
 }
 
 .landing__text {
