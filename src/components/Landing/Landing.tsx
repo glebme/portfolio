@@ -17,7 +17,12 @@ const Landing = () => {
                 <p className="landing__text">Get in touch with me here</p>
                 <Socials/>
                 <button className="landing__button">
-                    <a className="landing__link" href="/resources/tommy-huy-gia-truong-resume.pdf" download>View my resume</a>
+                    <a className="landing__link"
+                       href="/resources/tommy-huy-gia-truong-resume.pdf"
+                       aria-label="Download Resume"
+                       download>
+                        View my resume
+                    </a>
                 </button>
             </div>
         </div>
