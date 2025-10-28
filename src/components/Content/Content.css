@@ -1,0 +1,25 @@
+.content {
+    /*align-items: center;*/
+    display: flex;
+    flex-direction: column;
+    margin: auto 192px;
+}
+.content__heading {
+    font-family: OoohBaby, cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    text-indent: 1rem;
+}
+
+.content__text {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5
+}
+
+/*TODO make breakpoints variable, then set more breakpoints for margin*/
+@media (max-width: 769px) {
+    .content {
+        margin: auto 48px;
+    }
+}

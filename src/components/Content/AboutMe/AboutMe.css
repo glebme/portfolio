@@ -1,0 +1,17 @@
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+            "heading heading"
+            "text image";
+}
+
+.about-me__heading {
+    grid-area: heading;
+}
+
+.about-me__information {
+    grid-area: text;
+    padding-right: 2rem;
+}

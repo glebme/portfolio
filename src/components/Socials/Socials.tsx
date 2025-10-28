@@ -1,5 +1,6 @@
-import './Socials.css';
 import {Facebook, Instagram, Linkedin} from "react-feather";
+
+import './Socials.css';
 
 const Socials = () => {
     return (

@@ -1,6 +1,7 @@
-import './Landing.css'
 import Socials from "../Socials/Socials.tsx";
 import {useEffect, useState} from 'react';
+
+import './Landing.css';
 
 const Landing = () => {
     const [hasJustLanded, setHasJustLanded] = useState(true);
